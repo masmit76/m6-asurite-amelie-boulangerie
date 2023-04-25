@@ -1,0 +1,93 @@
+header, nav, main, section, article, figure, figcaption, aside, address, footer {
+    display: block;
+}
+body {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #DEA8B5;
+    color: #542C1B;
+}
+
+#wrapper {
+    width: 1000px;
+    background-color: #FDFDFD;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #141A1A;
+    height: 150px;
+    background-image: url(bowl.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #FFF;
+    padding-top: 50px;
+    padding-left: 32px;  
+}
+
+nav {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav li {
+    background-color: #E0E5DE;
+    border: 3px solid #CCCCCC;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 16px;
+    text-align: center;
+    color: #141A1A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #F28095;
+}
+
+.active-page {
+    background-color: #DEA8B5;
+}
+
+#floatleft {
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 10px;
+}
+
+main{
+    margin-left: 170px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.bakery {
+    font-style: italic;
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+.clear {
+    clear: left;
+}
+
+footer {
+    background-color: #AFAEB4;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 20px;
+}
